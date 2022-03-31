@@ -10,11 +10,11 @@
  */
 function calculate () {
   // input
-  const p = parseInt(document.getElementById('p-of-rhombus').value)
-  const q = parseInt(document.getElementById('q-of-rhombus').value)
+  const verticallLength = parseInt(document.getElementById('vertical-length').value)
+  const horizontalLength = parseInt(document.getElementById('horizontal-length').value)
 
   // process
-  const area = (p * q) / 2
+  const area = (verticallLength * horizontalLength) / 2
 
   // output
   document.getElementById('area').innerHTML = 'Area is: ' + area + ' cm²'
